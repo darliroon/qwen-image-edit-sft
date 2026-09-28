@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+
+# 审计可视化大图 (23MB, 可由 make_sheets.py 重新生成)
+2_audit/sheets/
+
+# 训练/推理产物
+results/
+saves/
+models/
+*.pth
+*.ckpt
+*.safetensors
+
+# 数据 (大文件放 /data, 不进 git)
+data/
+*.npz
+
+# IDE / 系统
+.idea/
+.vscode/
+.DS_Store
+
+# 日志
+logs/
+*.log
+runs/
